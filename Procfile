@@ -1,1 +1,1 @@
-web: wet https://repository-master.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/4.1.1/mule-standalone-4.1.1.tar.gz && tar -zxvf mule-standalone-4.1.1.tar.gz && cd mule-standalone-4.1.1 && ./bin/mule start -M-Dmule.mmc.bind.port=$PORT
+web: wget https://repository-master.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/4.1.1/mule-standalone-4.1.1.tar.gz && tar -zxvf mule-standalone-4.1.1.tar.gz && cd mule-standalone-4.1.1 && ./bin/mule start -M-Dmule.mmc.bind.port=$PORT
